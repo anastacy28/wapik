@@ -65,7 +65,7 @@ a {
 
 .header {
     display: block;
-    background-image: url(images/bg-main.jpg);
+    background-image: url("../images/bg-main.png") no-repeat 0 0;
 }
 
 
