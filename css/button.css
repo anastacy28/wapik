@@ -1,0 +1,72 @@
+.button {
+	display: inline-flex;
+}
+
+.button,
+.button-large {
+   border-radius: 3px;
+    color: #fff;
+    display: flex;
+    font-family: "Montserrat",sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    justify-content: center;
+    margin-bottom: 36px;
+    padding: 16px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.button-holder {
+	width: 53%;
+	margin: 0 auto;
+}
+
+.download  .button-holder {
+    margin: 43px -192px 0 auto;
+}
+
+.download .button-holder .file {
+    display: block;
+	margin: 0 0 0 auto;
+    width: 100%;
+     text-align: center;
+     position: relative;
+     vertical-align: middle;
+}
+
+.file  input[type=file],
+.file  input[type=submit] {
+	position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;    
+    opacity: 0;
+    cursor: pointer;
+}
+
+.button-large {
+	width: 66%;
+}
+
+.but-gray {
+	background: #83a7a5;
+}
+
+.but-green {
+	 background: #6fb048;
+}
+
+.button-hover-inverse:hover {
+    background: #83a7a5;
+} 
+
+
+/* green*/
+.button-hover:hover {
+   background: #6fb048;
+}
+
+.button:focus {}
+.button.is-active {}

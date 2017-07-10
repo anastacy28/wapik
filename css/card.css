@@ -1,0 +1,180 @@
+.card-image img {
+    display: block;
+    width: 100%;
+}
+
+.card {
+	font-size: 14px;
+	color: #83a7a5;
+	font-size: 14px;
+}
+
+
+.decoration {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 4%;
+}
+
+.card .card-item {
+	padding: 0 20px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.card .card-icon {
+    display: inline-flex;
+	margin-bottom: 20px;
+}
+
+.card .card-title {
+    color: #0f5f5c;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.card .card-title-smaller {
+	color: #6fb048;
+	font-size: 15px;
+	text-transform: uppercase;
+	margin: 2em 0 1.4em 0;
+	display: block;
+	font-weight: bold;
+}
+
+.card .card-description {
+	color: #83a7a5;
+}
+
+/* card feature*/
+.card-feature,
+.card-price {
+	text-align: center;
+	list-style: none;
+}
+/* card feature-secondary*/
+.card-feature-secondary .card-header {
+       display: flex;
+       align-items: center;
+}
+
+.card-feature-secondary .card-icon {
+	margin-right: 20px;
+}
+
+/* card price*/
+.card-price-list {
+	justify-content: center;
+	display: flex;
+}
+
+.card-price-list .card-item {
+	display: flex;
+    border: 1px solid #c1d3d2;  
+    flex-direction: column;
+}
+
+.card-price {
+   padding-bottom: 36px;
+}
+
+.card-price .value {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 65px;
+	color: #0f5f5c;
+	font-weight: bold; 
+}
+.card-price .per-month {
+	color: #0f5f5c;
+	margin: -1em 0 1.4em 0;
+} 
+
+.card-price .services {
+	padding: 9px 0;
+}
+
+.card .card-price {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+/* card feature secondary*/
+.card-feature-secondary-list .card-item {
+      width: 50%;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+}
+
+.card-feature-secondary .card-header {
+     display: flex;
+     justify-content: flex-start;
+}
+
+/*general*/
+.card-feature-list,
+.card-feature-secondary-list,
+.card-price-list {
+	display: flex;
+    flex-wrap: wrap;
+    list-style: outside none none;
+    margin: 0 -20px;
+    padding-left: 0;
+    padding-top: 2%;
+}
+
+.card-feature-list .card-item,
+.card-price-list .card-item {
+	width: 33.33%;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 913px) {
+	.card-price-list .card-item {
+	width: 60%;
+   }
+} 
+
+@media (max-width: 768px) {
+	.card-feature-list .card-item {
+	width: 50%;
+   }
+}
+
+@media (max-width: 500px) {
+	.card-feature-list .card-item,
+	.card-feature-secondary-list .card-item {
+	width: 100%;
+   }
+}
+
+
+/*
+.card-left {
+	fl
+}
+
+.card .card-price {}
+
+/*
+.card-icon {}
+.card-title {}
+.card-content {}
+.card-description {}
+
+.card-header {}
+.card-body {}
+.card-footer {}
+.card-hover {}
+
+.card-top {}
+.card-right {}
+.card-left {}
+.card-bottom {}
+
+.card:hover .card-hover {}
