@@ -7,13 +7,38 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 </head>
 <body>
 	<div class="wrapper">
-		<header class="header">
+   <div class="bg-main">
+		<header class="header bg-main">
 			<div class="container">
-				header
-			</div>
+				  <div class="navbar"> 
+                   <div class="navbar-logo"><a class="navbar-logo-image" href="#">wapik</a>
+                     <a class="call" href="tel:+622025550117">+62 202 555 0117</a>
+                   </div>
+               <a href="#" class="navbar-toggler">Menu</a>
+                 <div class="navbar-nav">
+                   <ul class="navbar-collapse">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">contact us</a></li>
+                        <li><a class="button" href="#">get started</a></li>
+                   </ul>
+			      </div>
+     </div>
+     <div class="section header-section">
+       <div class="section-box">
+         <div class="section-title-header">Welcome to Wapik</div>
+           <div class="section-description-header">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</div>
+           <div class="button-holder-header">
+                     <a class="button but-header-section but-green button-hover-inverse" href="#">Learn More</a>
+           </div> 
+       </div>
+     </div>
 		</header>
 		<main class="main">
      <div class="section">
@@ -338,11 +363,11 @@
               </div>
               <div class="section-box">
                  <div class="soc">
-                  <i><a class=""> </a></i>
-                  <i><a class="fb"> </a></i>
-                  <i><a class="inst"> </a></i>
-                  <i><a class="ball"> </a></i>
-                  <i><a class="git"> </a></i>
+                  <i><a class="" href="#"> </a></i>
+                  <i><a class="fb" href="#"> </a></i>
+                  <i><a class="inst" href="#"> </a></i>
+                  <i><a class="ball" href="#"> </a></i>
+                  <i><a class="git" href="#"> </a></i>
                 </div>
               </div>  
               </div>
@@ -352,5 +377,10 @@
       </div>
     </footer>
 	</div>
+        <script>
+    $('.navbar-toggler').click(function(){
+       $('.navbar-collapse').slideToggle("active");
+    });
+  </script>
 </body>
 </html>

@@ -47,6 +47,27 @@
   margin: 0.5em 0;
 }
 
+/*header*/
+.header-section {
+	color: #ccc;
+}
+
+.section-title-header {
+ 	margin-bottom: 20px;
+ }
+
+.section-description-header {
+	font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
+/*bg-main*/
+.bg-main {
+	background: url("../images/bg-main.png") no-repeat 0 0;
+	background-size: cover; 
+}
+
 /*help*/
 .help .section-title {
 	color: #6fb048;
@@ -65,7 +86,8 @@
     font-size: 22px;
 }
 
-.download .section-title {
+.download .section-title,
+ .section-title-header {
 	font-size: 28px;
 }
 
@@ -91,6 +113,7 @@
     width: 33.33%;
     flex-wrap: wrap;
     padding: 0 20px;
+    margin-bottom: 20px;
 }
 
 .list-item {
@@ -242,6 +265,10 @@
 	.hand .section-box {
 	margin: 1.4em 0;
    }
+   
+   .list-item-holder {
+   	   width: 50%;
+   }
 }
 
 @media (max-width: 672px) {
@@ -259,6 +286,9 @@
  .hand .section-box {
 	padding-top: 4%; 
   }
+  .list-item-holder {
+   	   width: 60%;
+   }
 }
 
 /*

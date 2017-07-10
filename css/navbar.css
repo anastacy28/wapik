@@ -1,5 +1,79 @@
-.navbar {}
-.navbar-logo {}
+.navbar {
+   padding: 30px 0;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid red; /*rgba(255, 255, 255, 0.5);*/
+}
+
+.navbar-logo {
+	display: flex;
+    justify-content: flex-start;
+}
+
+.call {
+     padding-left: 20px;
+     text-decoration: none;
+     color: #ccc;
+}
+
+.navbar-logo .navbar-logo-image{
+	font-size: 29px; 
+	text-transform: uppercase;
+	font-family: 'ProximaNova-Bold', sans-serif;
+	color: #ссс;
+}
+
+.navbar-logo-image {
+	display: block;
+    border-right: 1px solid #4e6969;
+    padding-right: 20px; 
+}
+
+.navbar-toggler {
+   display: none;
+} 
+
+.navbar-nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.navbar-collapse > li {
+    display: inline-flex;
+}
+
+.navbar-collapse > li > a {
+	display: block;
+	padding: 10px 2%;
+	color: #c6cccc;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navbar-collapse > li > a.active {
+	color: #fff;
+}
+
+@media (max-width: 790px) {
+     .navbar-collapse {
+            display: none;
+         }
+
+     .navbar-toggler {
+     	display: block;
+     }  
+
+     .navbar-collapse li {
+        display: block;
+        background: rgba(225, 225, 225, 0.5);
+     }
+}
+/*
 .navbar-logo-image {}
 .navbar-nav {}
 .navbar-nav > li {}
