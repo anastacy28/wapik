@@ -1,27 +1,50 @@
 .navbar {
-   padding: 30px 0;
-   display: flex;
+   align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    display: flex;
     justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid red; /*rgba(255, 255, 255, 0.5);*/
+      margin-bottom: 12%;
+      padding: 2% 0;
+
+}
+.header .navbar-nav .button {
+    margin-bottom: 0px;
+    padding: 10px;
+    display: inline-block;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, 0.5); 
 }
 
 .navbar-logo {
 	display: flex;
     justify-content: flex-start;
+    align-items: center;
+    color: #fff; 
 }
 
 .call {
      padding-left: 20px;
      text-decoration: none;
-     color: #ccc;
+      color: #fff; 
+      position: relative;
+}
+
+.call:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 14px;
+    height: 14px;
+    top: 30%;
+    left: 3%;
+    background: url("../images/sprites.png") no-repeat -126px 0;
 }
 
 .navbar-logo .navbar-logo-image{
 	font-size: 29px; 
 	text-transform: uppercase;
 	font-family: 'ProximaNova-Bold', sans-serif;
-	color: #ссс;
+    color: #fff; 
 }
 
 .navbar-logo-image {

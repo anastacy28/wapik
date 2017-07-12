@@ -41,12 +41,6 @@ img {
     position: relative;
 }
 
-.bg-main {
-
-     background: url("../images/bg-main.jpg") no-repeat 0 0;
-     background-size: contain;
-}
-
 .container {
     max-width: 1024px;
     margin-left: auto;
@@ -62,12 +56,6 @@ ul, li {
 a {
     text-decoration: none;
 }
-
-.header {
-    display: block;
-    background-image: url("../images/bg-main.png") no-repeat 0 0;
-}
-
 
 @media (max-width: 1050px) {
     .container {

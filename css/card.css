@@ -14,7 +14,6 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin-bottom: 4%;
 }
 
 .card .card-item {
@@ -55,6 +54,8 @@
 	text-align: center;
 	list-style: none;
 }
+
+
 /* card feature-secondary*/
 .card-feature-secondary .card-header {
        display: flex;
@@ -119,7 +120,8 @@
 /*general*/
 .card-feature-list,
 .card-feature-secondary-list,
-.card-price-list {
+.card-price-list,
+.card-team-list {
 	display: flex;
     flex-wrap: wrap;
     list-style: outside none none;
@@ -132,6 +134,26 @@
 .card-price-list .card-item {
 	width: 33.33%;
 	margin-bottom: 20px;
+}
+
+.card-feature-list {
+	margin-bottom:  25px;
+}
+/*card-team*/
+.card-team .card-name {
+    font-size: 15px;
+    color: #0f5f5c;
+    margin-bottom: 2%;
+}
+
+.card-team .card-profession {
+     color: #8cadaa;
+     font-size: 14px;
+}
+
+/*page-about*/
+.page-about  .card-feature-list {
+	margin: 7% 0;
 }
 
 @media (max-width: 913px) {

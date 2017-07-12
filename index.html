@@ -12,9 +12,8 @@
 </head>
 <body>
 	<div class="wrapper">
-   <div class="bg-main">
-		<header class="header bg-main">
-			<div class="container">
+		<header class="header" style="background-image: url(images/bg1.jpg)" >
+      <div class="container">
 				  <div class="navbar"> 
                    <div class="navbar-logo"><a class="navbar-logo-image" href="#">wapik</a>
                      <a class="call" href="tel:+622025550117">+62 202 555 0117</a>
@@ -29,9 +28,11 @@
                         <li><a class="button" href="#">get started</a></li>
                    </ul>
 			      </div>
+        
      </div>
-     <div class="section header-section">
-       <div class="section-box">
+     <div class="section">
+     <div class="header-section-body">
+       <div class="header-section-box">
          <div class="section-title-header">Welcome to Wapik</div>
            <div class="section-description-header">Wapik is multipurpose template, with modern and smart design. Wapik is perfect template for you!</div>
            <div class="button-holder-header">
@@ -39,6 +40,7 @@
            </div> 
        </div>
      </div>
+ </div>
 		</header>
 		<main class="main">
      <div class="section">
@@ -94,6 +96,7 @@
                 <span class="decoration"><img src="images/decoration.png" alt="images"></span>
         </div>      
             <!--secondary-->
+         <div class="section">   
            <div class="container"> 
             <ul class="card card-feature-secondary-list">
                 <li class="card-item">
@@ -116,7 +119,7 @@
                            <div class="card-description">Vamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean eu leo quam. Pellentesque ornare sem.</div>
                        </div>
          </li>
-         <li class=" card-item">
+         <li class="card-item">
                     <div class="card-feature-secondary">
                          <div class="card-header">
                                 <div class="card-icon"><img src="images/icon2-2.png" alt="images"></div>  
@@ -139,6 +142,7 @@
          </li>
         </div>
       </ul>
+   </div>
   <div class="section hand gray">
         <div class="container">
            <div class="section-header">
@@ -348,7 +352,7 @@
                <div class="footer-list">Subscribe to our newsletter and get all the cool news</div>
                <div class="footer-list send-email">  
                     <form action="send.php" method="post">
-                      <input type="text" name="email" placeholder="Enter Email">
+                      <input class="input-email" type="text" name="email" placeholder="Enter Email">
                     </form>
                </div>
              </li>
