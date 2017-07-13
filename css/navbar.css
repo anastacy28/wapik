@@ -40,6 +40,11 @@
     background: url("../images/sprites.png") no-repeat -126px 0;
 }
 
+.call:hover:before {
+    background:  url("../images/sprites.png") no-repeat -148px 0;
+    
+}
+
 .navbar-logo .navbar-logo-image{
 	font-size: 29px; 
 	text-transform: uppercase;

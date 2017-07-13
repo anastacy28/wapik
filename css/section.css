@@ -4,13 +4,18 @@
 	font-size: 14px;
 }
 
-.section-header {
+.section-header,
+.section-bottom {
     display: flex;
     flex-direction: column;
     margin-bottom: 4%;
     padding: 0 17%;
     text-align: center;
     width: 100%;
+}
+
+.section-bottom {
+	margin-bottom: 0;
 }
 
 .section-body {
@@ -52,7 +57,7 @@
 .header {
   -webkit-background-size: 100% ;
   background-size: 100%;
-  min-height: 605px;
+  background-size: cover;
   position: relative;
   display: block;
   z-index: -1;
@@ -96,7 +101,11 @@
     margin-bottom: 20px;
 }
 
-/* header aboout*/
+/* header about*/
+.head-about {
+	padding: 0 0 5%;
+}
+
 .head-about .section-description-header {
      font-size: 50px;
      margin-bottom: 4%;
@@ -105,16 +114,36 @@
 .about-us .download {
 	-webkit-background-size: 100%;
 	background-size: 100%;
+	background-size: cover;
 }
 
 .about-us .section.download {
-	padding-bottom: 0;
 	color: #fff;
 }
 
-.about-us .section.download .section-body .section-title{
-     	color: #fff;
+/* header home*/
+  .home .header-section-box {
+      padding-bottom: 20%;
+  }
+
+/* header pricing*/
+.pricing .navbar {
+	margin-bottom: 0;
 }
+
+.pricing .section-header {
+	padding: 0 29%;
+	margin-bottom: 2%;
+}
+
+.pricing .card-price-list .card-item{
+	background: #fff;
+}
+
+.pricing .section.plans {
+	  padding: 4% 0;
+}
+
 /*bg-main
 .bg1 {
 	background: url("../images/bg1.jpg") no-repeat 0 0;
@@ -172,7 +201,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 0 -20px;
+    margin: 0 -20px 20px;
 }
 
  .list-item-holder {
@@ -247,6 +276,127 @@
 	justify-content: center;
 	text-align: center;
 	display: flex;
+}
+
+
+/* header contact us*/
+  .contact-us .navbar {
+  	color: #8daeac;
+  	margin-bottom: 0;
+  }
+
+.contact-us .navbar-logo a {
+    	color: #0f5f5c;
+   }
+
+.contact-us .navbar-collapse li a {
+    color: #c6cccc;
+}
+
+.section.map {
+   	padding: 0;
+   }
+
+.map-holder {
+	width: 100%;
+}
+
+.map-holder iframe {
+	width: 100%;
+    height: auto;
+}
+
+.contact-us .contact .section-header {
+	margin-bottom: 7%;
+	padding: 0 26%;
+}
+
+.contact-us .contact .section-box {
+    justify-content: flex-start;
+}
+
+.contact-us .send-message .holder {
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-bottom: 5%;
+	padding: 15px 21px;
+	border: 1px solid #c1d3d2;
+	resize: vertical;
+	color: #83a7a5;
+	box-shadow: -webkit-box-shadow: -4px 13px 9px -9px rgba(232,232,232,1);
+-moz-box-shadow: -4px 13px 9px -9px rgba(232,232,232,1);
+box-shadow: -4px 13px 9px -9px rgba(232,232,232,1);
+}
+
+.contact-us .send-message {
+      margin-bottom: 40px;
+}
+
+.contact-us .send-message .textarea {
+	min-height: 124px;
+}
+
+.contacts .section-title-smaller {
+	text-transform: uppercase;
+	color: #0f5f5c;
+}
+
+.contact .section-body {
+    align-items: flex-start;
+}
+
+.contacts {
+	background: rgba(0, 0, 0, 0) url("../images/border-contact.png") no-repeat scroll 0 0;
+    min-height: 277px;
+    padding: 36px 41px;
+    width: 50%;
+}
+
+.address {  
+    padding-left: 5%;
+}
+
+.address a, span {
+	display: block;
+	font-family: "Roboto Regular", sans-serif;
+	color: #54524f;
+	margin-bottom: 15px;
+}
+
+.address a {
+	position: relative;
+}
+
+.address a:before {
+	position: absolute;
+	display: block;
+	content: "";
+	background: url('../images/sprites.png') no-repeat -176px 0;
+	width: 18px;
+	height: 20px;
+	top: 0;
+	left: -5%;
+}
+
+.address a.phone:before {
+    background-position: -148px 0; 
+}
+
+.address a.email:before {
+    background-position:  -201px 0; 
+}
+
+.address .location {
+	margin-bottom: 20px;
+}
+
+.address a span {
+	display: block;
+}
+
+.about-us .section.download .section-body .section-title{
+     	color: #fff;
 }
 
 /*footer*/
