@@ -87,6 +87,10 @@
 	color: #fff;
 }
 
+.pricing .navbar {
+    margin-bottom: 0;
+}
+
 @media (max-width: 790px) {
      .navbar-collapse {
             display: none;

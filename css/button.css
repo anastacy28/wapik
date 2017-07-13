@@ -17,9 +17,20 @@
     text-transform: uppercase;
 }
 
-.button-holder {
+.button-holder,
+ .button-holder-header {
 	width: 53%;
 	margin: 0 auto;
+}
+
+
+.about-us .button-holder a {
+    display: block;
+    margin: 0 auto;
+}
+
+.button-holder-header {
+    margin: 0;
 }
 
 .download  .button-holder {
