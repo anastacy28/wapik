@@ -52,6 +52,9 @@
   margin: 0.5em 0;
 }
 
+.active {
+	color: #fff;
+}
 /*header*/
 
 .header {
@@ -63,16 +66,17 @@
   z-index: -1;
 }
 
-.header:before {
+.header .substrate  {
 	position: absolute;
 	content: "";
 	display: block;
 	left: 0;
 	right: 0;
 	top: 0;
-	background-color: #296365;
+	bottom: 0;
+	background: url("../images/sub.png") no-repeat 0 0;
 	opacity: 0.5;
-	z-index: 10;
+	z-index: -1;
 }
 
 .header .section {
